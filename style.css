@@ -1,0 +1,60 @@
+main {
+    border: 1px dotted black;
+    display: grid;
+    grid-template-columns: 75% 20%;
+    column-gap: 5%;
+}
+
+nav {
+    border: 1px dotted black;
+    margin: 20px 0;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 0;
+}
+
+a {
+    display: block;
+    width: 6em;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-right: 1px solid white;
+    text-align: center;
+    padding: 0.2em 0;
+}
+
+a:hover {
+    background-color: #2288ff;
+}
+
+header h1 {
+    border: 1px dotted black;
+    text-align: center;
+}
+
+section {
+    border: 1px dotted black;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+aside {
+    border: 1px dotted black;
+    padding: 15px;
+}
+
+footer {
+    border: 1px dotted black;
+    padding: 15px;
+    margin-top: 20px;
+    
+}
